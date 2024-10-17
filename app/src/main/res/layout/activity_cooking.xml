@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cooking"
+    android:background="@drawable/backgroundnew"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewLogoCooking"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageViewAccountCooking"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textViewCooking2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="180dp"
+        android:text="Cooking"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewCooking2"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCooking2"
+        app:srcCompat="@drawable/cooking" />
+
+    <TextView
+        android:id="@+id/textViewFeesCooking1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="189dp"
+        android:background="@color/black"
+        android:text="Fees:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCooking2" />
+
+    <TextView
+        android:id="@+id/textViewFeesCooking2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="189dp"
+        android:background="@color/black"
+        android:text="R750"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFeesCooking1" />
+
+    <TextView
+        android:id="@+id/textViewPurposeCooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="178dp"
+        android:background="@color/black"
+        android:text="Purpose:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFeesCooking2" />
+
+    <TextView
+        android:id="@+id/textViewPurposeCooking2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="69dp"
+        android:background="@color/black"
+        android:text="To prepare and cook nutritious family meals"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPurposeCooking" />
+
+    <TextView
+        android:id="@+id/textViewContentCooking1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="179dp"
+        android:background="@color/black"
+        android:text="Content:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPurposeCooking2" />
+
+    <TextView
+        android:id="@+id/textViewContentCooking2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="68dp"
+        android:background="@color/black"
+        android:text="• Nutritional requirements for a healthy body"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentCooking1" />
+
+    <TextView
+        android:id="@+id/textViewContentCooking3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="54dp"
+        android:background="@color/black"
+        android:text="• Types of protein, carbohydrates and vegetables"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentCooking2" />
+
+    <TextView
+        android:id="@+id/textViewContentCooking4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="154dp"
+        android:background="@color/black"
+        android:text="• Planning meals"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentCooking3" />
+
+    <TextView
+        android:id="@+id/textViewContentCooking5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="97dp"
+        android:background="@color/black"
+        android:text="• Preparation and cooking of meals"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentCooking4" />
+
+    <ImageView
+        android:id="@+id/imageViewBackCooking"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_removebg_preview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

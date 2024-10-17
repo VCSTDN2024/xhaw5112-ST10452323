@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstAid"
+    android:background="@drawable/backgroundnew"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewLogoFirstAid"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageViewAccountFirstAid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textViewFirstAid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="180dp"
+        android:text="First Aid"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewFirstAid2"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFirstAid2"
+        app:srcCompat="@drawable/first_aid" />
+
+    <TextView
+        android:id="@+id/textViewFeesFirstAid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="189dp"
+        android:background="@color/black"
+        android:text="Fees:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFirstAid2" />
+
+    <TextView
+        android:id="@+id/textViewFeesFirstAid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="185dp"
+        android:background="@color/black"
+        android:text="R1500"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFeesFirstAid1" />
+
+    <TextView
+        android:id="@+id/textViewPurposeFirstAid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="180dp"
+        android:background="@color/black"
+        android:text="Purpose:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFeesFirstAid2" />
+
+    <TextView
+        android:id="@+id/textViewPurposeFirstAid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="43dp"
+        android:background="@color/black"
+        android:text="To provide first aid awareness and basic life support"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPurposeFirstAid1" />
+
+    <TextView
+        android:id="@+id/textViewContentFirstAid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="179dp"
+        android:background="@color/black"
+        android:text="Content:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPurposeFirstAid2" />
+
+    <TextView
+        android:id="@+id/textViewContentFirstAid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="134dp"
+        android:background="@color/black"
+        android:text="• Wounds and bleeding"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentFirstAid1" />
+
+    <TextView
+        android:id="@+id/textViewContentFirstAid3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="140dp"
+        android:background="@color/black"
+        android:text="• Burns and fractures"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentFirstAid2" />
+
+    <TextView
+        android:id="@+id/textViewContentFirstAid4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="103dp"
+        android:background="@color/black"
+        android:text="• Emergency scene management"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentFirstAid3" />
+
+    <TextView
+        android:id="@+id/textViewContentFirstAid5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="82dp"
+        android:background="@color/black"
+        android:text="• Cardio-Pulmonary Resuscitation (CPR)"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentFirstAid4" />
+
+    <TextView
+        android:id="@+id/textViewContentFirstAid6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="47dp"
+        android:background="@color/black"
+        android:text="• Respiratory distress e.g., Choking, blocked airway"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentFirstAid5" />
+
+    <ImageView
+        android:id="@+id/imageViewBackFirstAid"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_removebg_preview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

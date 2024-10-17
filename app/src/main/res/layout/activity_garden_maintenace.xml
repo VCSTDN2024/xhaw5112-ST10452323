@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GardenMaintenace"
+    android:background="@drawable/backgroundnew"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewLogoGardenMaintenace"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageViewAccountGardenMaintenance"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textViewGardenMaintenance2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="145dp"
+        android:text="Garden Maintenace"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewGardenMaintenace2"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGardenMaintenance2"
+        app:srcCompat="@drawable/gardennew" />
+
+    <TextView
+        android:id="@+id/textViewFeesGardenMaintenace1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="189dp"
+        android:background="@color/black"
+        android:text="Fees:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewGardenMaintenace2" />
+
+    <TextView
+        android:id="@+id/textViewFeesGardenMaintenace2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="189dp"
+        android:background="@color/black"
+        android:text="R750"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFeesGardenMaintenace1" />
+
+    <TextView
+        android:id="@+id/textViewPurposeGardenMaintenace1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="178dp"
+        android:background="@color/black"
+        android:text="Purpose:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFeesGardenMaintenace2" />
+
+    <TextView
+        android:id="@+id/textViewPurposeGardenMaintenace2"
+        android:layout_width="276dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="68dp"
+        android:background="@color/black"
+        android:text=" To provide basic knowledge of watering, pruning and planting in a domestic garden"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPurposeGardenMaintenace1" />
+
+    <TextView
+        android:id="@+id/textViewContentGardenMaintance1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="179dp"
+        android:background="@color/black"
+        android:text="Content:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPurposeGardenMaintenace2" />
+
+    <TextView
+        android:id="@+id/textViewContentGardenMaintance2"
+        android:layout_width="298dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="57dp"
+        android:background="@color/black"
+        android:text="• Water restrictions and the watering requirements of indigenous and exotic plants"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentGardenMaintance1" />
+
+    <TextView
+        android:id="@+id/textViewContentGardenMaintance3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="96dp"
+        android:background="@color/black"
+        android:text="• Pruning and propagation of plants"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentGardenMaintance2" />
+
+    <TextView
+        android:id="@+id/textViewContentGardenMaintance4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="65dp"
+        android:background="@color/black"
+        android:text="• Planting techniques for different plant types"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentGardenMaintance3" />
+
+    <ImageView
+        android:id="@+id/imageViewBackGardenMaintenance"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_removebg_preview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

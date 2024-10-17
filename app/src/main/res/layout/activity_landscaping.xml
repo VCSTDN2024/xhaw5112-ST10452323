@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Landscaping"
+    android:background="@drawable/backgroundnew"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewLogoLandscaping"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageViewAccountLandscaping"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textViewLandscaping2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="166dp"
+        android:text="Landscaping"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLandscaping2"
+        app:srcCompat="@drawable/landscaping" />
+
+    <TextView
+        android:id="@+id/textViewFeesLandscaping1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="189dp"
+        android:background="@color/black"
+        android:text="Fees:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textViewFeesLandscaping2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="185dp"
+        android:background="@color/black"
+        android:text="R1500"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFeesLandscaping1" />
+
+    <TextView
+        android:id="@+id/textViewPurposeLandscaping1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="178dp"
+        android:background="@color/black"
+        android:text="Purpose:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFeesLandscaping2" />
+
+    <TextView
+        android:id="@+id/textViewPurposeLandscaping2"
+        android:layout_width="235dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="88dp"
+        android:background="@color/black"
+        android:text=" To provide landscaping services for new and established gardens"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPurposeLandscaping1" />
+
+    <TextView
+        android:id="@+id/textViewContentLandscaping1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="179dp"
+        android:background="@color/black"
+        android:text="Content:"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPurposeLandscaping2" />
+
+    <TextView
+        android:id="@+id/textViewContentLandscaping2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="81dp"
+        android:background="@color/black"
+        android:text="• Indigenous and exotic plants and trees"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentLandscaping1" />
+
+    <TextView
+        android:id="@+id/textViewContentLandscaping3"
+        android:layout_width="247dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="82dp"
+        android:background="@color/black"
+        android:text="• Fixed structures (fountains, statues, benches, tables, built-in braai)"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentLandscaping2" />
+
+    <TextView
+        android:id="@+id/textViewContentLandscaping4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="75dp"
+        android:background="@color/black"
+        android:text="• Balancing of plants and trees in a garden"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentLandscaping3" />
+
+    <TextView
+        android:id="@+id/textViewContentLandscaping5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="80dp"
+        android:background="@color/black"
+        android:text="• Aesthetics of plant shapes and colours"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentLandscaping4" />
+
+    <TextView
+        android:id="@+id/textViewContentLandscaping6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="158dp"
+        android:background="@color/black"
+        android:text="• Garden layout"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContentLandscaping5" />
+
+    <ImageView
+        android:id="@+id/imageViewBackLandscaping"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_removebg_preview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

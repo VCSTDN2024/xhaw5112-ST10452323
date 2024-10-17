@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixWeekCourses"
+    android:background="@drawable/backgroundnew"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewLogoSixWeekCourses"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageViewAccountSixWeekCourses"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textViewSixWeekCourses2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="151dp"
+        android:text="Six-week courses"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewChildMinding1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSixWeekCourses2"
+        app:srcCompat="@drawable/child_minding" />
+
+    <TextView
+        android:id="@+id/textViewChildMinding1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="55dp"
+        android:text="Child Minding"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageViewChildMinding1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSixWeekCourses2" />
+
+    <Button
+        android:id="@+id/buttonChildMinding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Click here"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/imageViewChildMinding1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChildMinding1" />
+
+    <ImageView
+        android:id="@+id/imageViewCooking1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewChildMinding1"
+        app:srcCompat="@drawable/cooking" />
+
+    <TextView
+        android:id="@+id/textViewCooking1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="85dp"
+        android:text="Cooking"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCooking1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonChildMinding" />
+
+    <Button
+        android:id="@+id/buttonCooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Click here"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCooking1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCooking1"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageViewGardenMaintenance1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCooking1"
+        app:srcCompat="@drawable/gardennew" />
+
+    <TextView
+        android:id="@+id/textViewGardenMaintenance1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="85dp"
+        android:text="Garden Maintenance"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageViewGardenMaintenance1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCooking" />
+
+    <Button
+        android:id="@+id/buttonGardenMaintenance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Click here"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/imageViewGardenMaintenance1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGardenMaintenance1" />
+
+    <ImageView
+        android:id="@+id/imageViewBackSixWeekCourses"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_removebg_preview" />
+</androidx.constraintlayout.widget.ConstraintLayout>
